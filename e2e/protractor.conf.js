@@ -33,5 +33,5 @@ exports.config = {
 
     // Better console spec reporter
     jasmine.getEnv().addReporter(new SpecReporter({ spec: { displayStacktrace: true } }));
-  },
+  }
 };

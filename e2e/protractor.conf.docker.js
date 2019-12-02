@@ -8,5 +8,5 @@ exports.config = {
   directConnect: false,
   // CAREFUL: These endpoints must match the docker-compose.yml services names
   seleniumAddress: 'http://selenium-chrome-standalone:4444/wd/hub',
-  baseUrl: 'http://app-serve:4200/',
+  baseUrl: 'http://app-serve:4200/'
 };
